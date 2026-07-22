@@ -1,0 +1,22 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # use const constructors wherever possible
+    prefer_const_constructors: true
+    # declare constructors const in immutable classes
+    prefer_const_constructors_in_immutables: true
+    # use const for constant declarations
+    prefer_const_declarations: true
+    # use const literals for immutable collections
+    prefer_const_literals_to_create_immutables: true
+    # always use trailing commas
+    require_trailing_commas: true
+    # use final for non-reassigned local variables
+    prefer_final_locals: true
+    # use final in for-each loop variables
+    prefer_final_in_for_each: true
+    # use final for non-reassigned fields
+    prefer_final_fields: true
+    # avoid unnecessary 'this.' prefix
+    unnecessary_this: true
